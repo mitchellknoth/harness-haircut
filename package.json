@@ -55,7 +55,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mknoth197/harness-haircut.git"
+    "url": "git+https://github.com/mitchellknoth/harness-haircut.git"
   },
   "keywords": [
     "ai",

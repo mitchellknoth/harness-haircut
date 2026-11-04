@@ -7,7 +7,7 @@ Pre-1.0: only the latest published version receives fixes.
 ## Reporting a vulnerability
 
 Please **do not** open a public issue for security reports. Instead, use
-[GitHub private vulnerability reporting](https://github.com/mknoth197/harness-haircut/security/advisories/new)
+[GitHub private vulnerability reporting](https://github.com/mitchellknoth/harness-haircut/security/advisories/new)
 on this repository.
 
 You can expect an acknowledgement within a week. Please include a minimal

@@ -77,5 +77,5 @@ each provider's native format.
   and does not warn (HH-W012 scope; see [`docs/warnings/HH-W012.md`](docs/warnings/HH-W012.md)).
 - `uvx` / Python distribution is post-v1 (PRD §15).
 
-[Unreleased]: https://github.com/mknoth197/harness-haircut/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/mknoth197/harness-haircut/releases/tag/v0.1.0
+[Unreleased]: https://github.com/mitchellknoth/harness-haircut/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/mitchellknoth/harness-haircut/releases/tag/v0.1.0

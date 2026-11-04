@@ -4,7 +4,7 @@ scope: "**/*"
 
 # Commit & PR style
 
-[Conventional Commits](https://www.conventionalcommits.org/) — strictly enforced once a `commitlint` hook lands (I1 [#14](https://github.com/mknoth197/harness-haircut/issues/14)). Until then, follow the rules below by hand.
+[Conventional Commits](https://www.conventionalcommits.org/) — strictly enforced once a `commitlint` hook lands (I1 [#14](https://github.com/mitchellknoth/harness-haircut/issues/14)). Until then, follow the rules below by hand.
 
 ## Subject line
 

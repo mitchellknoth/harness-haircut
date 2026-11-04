@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # Create one GitHub issue per EARS story file under docs/stories/.
 #
-# Usage: REPO=mknoth197/harness-haircut bash scripts/create-ears-issues.sh
+# Usage: REPO=mitchellknoth/harness-haircut bash scripts/create-ears-issues.sh
 # Requires: gh CLI authed as a user with write access to $REPO.
 
 set -euo pipefail
 
-REPO="${REPO:-mknoth197/harness-haircut}"
+REPO="${REPO:-mitchellknoth/harness-haircut}"
 STORY_DIR="$(dirname "$0")/../docs/stories"
 
 if ! command -v gh >/dev/null 2>&1; then

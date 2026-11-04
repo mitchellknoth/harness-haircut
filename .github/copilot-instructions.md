@@ -1,7 +1,7 @@
 <!-- @hand-emitted-projection
 This file is a hand-emitted projection of AGENTS.md + .agents/instructions/*.
 When `harness-haircut apply` ships (tracked at
-https://github.com/mknoth197/harness-haircut/issues/12), this file will
+https://github.com/mitchellknoth/harness-haircut/issues/12), this file will
 be regenerated automatically and the hand-emit step goes away. Until
 then, edits should land in AGENTS.md or the relevant
 .agents/instructions/<topic>.md file first, then be re-projected here

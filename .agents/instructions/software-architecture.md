@@ -17,7 +17,7 @@ The intermediate representation (IR) of canonical configuration. Pure data and p
 - **MUST NOT** call global APIs that produce nondeterminism: `Date.now()`, `crypto.randomUUID()`, `Math.random()`, `process.env`. Pass these in as parameters.
 - **MAY** export types, interfaces, branded types, and pure functions over those types (validators, comparators, transformers).
 
-The landed shape (F1 [#4](https://github.com/mknoth197/harness-haircut/issues/4)) lives in [`src/entities/ir.ts`](../../src/entities/ir.ts): `Instruction`, `Skill`, `Hook`, `Attachment`, and `IR` (which carries `attachments` alongside the three surfaces), plus the canonical nine-event `HookEvent` enum. That file is the source of truth — this document deliberately does not duplicate it.
+The landed shape (F1 [#4](https://github.com/mitchellknoth/harness-haircut/issues/4)) lives in [`src/entities/ir.ts`](../../src/entities/ir.ts): `Instruction`, `Skill`, `Hook`, `Attachment`, and `IR` (which carries `attachments` alongside the three surfaces), plus the canonical nine-event `HookEvent` enum. That file is the source of truth — this document deliberately does not duplicate it.
 
 ### Layer 2 — Use cases (`src/use-cases/`)
 
@@ -42,7 +42,7 @@ Concrete implementations of Layer 2's interfaces. Where the outside world meets 
 - **MUST NOT** import from `cli.ts` or `bin.ts`.
 - **MAY** import from `entities/` and from interfaces declared in `use-cases/`.
 - **MAY** import npm packages and standard library I/O (`node:fs`, `node:child_process`, `node:path`).
-- One adapter per AI provider (`src/adapters/codex.ts`, `claude.ts`, `gemini.ts`, `copilot.ts`) — each implements the `ProviderAdapter` interface from `entities/` (lands with F3 [#6](https://github.com/mknoth197/harness-haircut/issues/6)).
+- One adapter per AI provider (`src/adapters/codex.ts`, `claude.ts`, `gemini.ts`, `copilot.ts`) — each implements the `ProviderAdapter` interface from `entities/` (lands with F3 [#6](https://github.com/mitchellknoth/harness-haircut/issues/6)).
 - One gateway per external concern (`src/gateways/filesystem.ts`, `src/gateways/git.ts`).
 
 ### Layer 4 — Composition root (`src/cli.ts`, `src/bin.ts`)
