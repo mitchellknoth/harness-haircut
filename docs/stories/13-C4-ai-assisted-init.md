@@ -1,7 +1,7 @@
 # C4 — AI-assisted init merge (optional)
 
 **Type:** Command (extends C3)
-**Depends on:** C3 ([#13](https://github.com/mknoth197/harness-haircut/issues/13)) — reuses the injected `ContradictionResolver` seam
+**Depends on:** C3 ([#13](https://github.com/mitchellknoth/harness-haircut/issues/13)) — reuses the injected `ContradictionResolver` seam
 **Blocks:** none (optional, post-v1 capability)
 **Labels:** `enhancement`, `command`, `ai-assist`
 
@@ -78,4 +78,4 @@ A remembered credential-source choice persists **per-machine, user-local** — N
 
 ## Remaining open questions
 
-- **Redaction / allowlist of which file contents may be sent** — scoped by the Fable pen-test ([`docs/security/assist-egress-threat-model.md`](../security/assist-egress-threat-model.md)) and specified in **C5** ([`14-C5-assist-egress-redaction.md`](14-C5-assist-egress-redaction.md), [#30](https://github.com/mknoth197/harness-haircut/issues/30)). **C4's egress path (U5 + the SDK backend) is a HARD dependency on C5** — it must not ship until C5's default-deny classes, secret-scan-hard-block, scratch-cwd/bare CLI invocation, and byte-accurate consent preview are in place. The pen-test also found a v1 issue independent of assist (a symlink-following reader in `init`) being fixed separately.
+- **Redaction / allowlist of which file contents may be sent** — scoped by the Fable pen-test ([`docs/security/assist-egress-threat-model.md`](../security/assist-egress-threat-model.md)) and specified in **C5** ([`14-C5-assist-egress-redaction.md`](14-C5-assist-egress-redaction.md), [#30](https://github.com/mitchellknoth/harness-haircut/issues/30)). **C4's egress path (U5 + the SDK backend) is a HARD dependency on C5** — it must not ship until C5's default-deny classes, secret-scan-hard-block, scratch-cwd/bare CLI invocation, and byte-accurate consent preview are in place. The pen-test also found a v1 issue independent of assist (a symlink-following reader in `init`) being fixed separately.

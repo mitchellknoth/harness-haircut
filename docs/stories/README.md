@@ -2,7 +2,7 @@
 
 Each file in this directory is one user story written in EARS syntax (Easy Approach to Requirements Syntax). They are intended to become individual GitHub issues — see [`scripts/create-ears-issues.sh`](../../scripts/create-ears-issues.sh) for a script that creates them via `gh`.
 
-> **Why are these in the repo and not GitHub issues?** The session that drafted them ran under an Enterprise Managed User auth that's denied write access to `mknoth197/*`. The script lets the repo owner create the issues from their own auth.
+> **Why are these in the repo and not GitHub issues?** The session that drafted them ran under an Enterprise Managed User auth that's denied write access to `mitchellknoth/*`. The script lets the repo owner create the issues from their own auth.
 
 ## Dependency chain
 

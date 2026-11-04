@@ -29,7 +29,7 @@ npm test           # build + node --test
 
 ## Editing project standards
 
-Standards changes land in `AGENTS.md` or `.agents/instructions/<topic>.md` **first**, then are re-projected by hand into the per-provider files (until `harness-haircut apply` ships and does it automatically — tracked in [#12](https://github.com/mknoth197/harness-haircut/issues/12)).
+Standards changes land in `AGENTS.md` or `.agents/instructions/<topic>.md` **first**, then are re-projected by hand into the per-provider files (until `harness-haircut apply` ships and does it automatically — tracked in [#12](https://github.com/mitchellknoth/harness-haircut/issues/12)).
 
 ## Questions
 

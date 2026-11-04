@@ -199,7 +199,7 @@ function helpText(): string {
     'install-precommit options:',
     '  --force             Overwrite an existing pre-commit hook (else append)',
     '',
-    'See https://github.com/mknoth197/harness-haircut for documentation.',
+    'See https://github.com/mitchellknoth/harness-haircut for documentation.',
   ].join('\n');
 }
 

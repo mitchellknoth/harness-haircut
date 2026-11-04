@@ -1,7 +1,7 @@
 # C5 — assist egress redaction & guardrails
 
 **Type:** Security gate for C4 (the `--assist` egress path)
-**Depends on:** C4 ([#28](https://github.com/mknoth197/harness-haircut/issues/28)) types/seam
+**Depends on:** C4 ([#28](https://github.com/mitchellknoth/harness-haircut/issues/28)) types/seam
 **Blocks:** the `--assist` egress path may not ship until this lands
 **Labels:** `enhancement`, `security`, `ai-assist`
 
