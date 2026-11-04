@@ -3,7 +3,7 @@
 **Type:** Command (enhancement to C3)
 **Depends on:** C3 (init), C4 (assist — composes), F1, F2
 **Revises:** [C3 `UN1`](10-C3-init-command.md) — the already-canonical fast-fail.
-**GitHub issue:** [#44](https://github.com/mknoth197/harness-haircut/issues/44)
+**GitHub issue:** [#44](https://github.com/mitchellknoth/harness-haircut/issues/44)
 **Labels:** `enhancement`, `command`
 
 ## Context
@@ -59,7 +59,7 @@ and scoped instructions) over the remaining provider files.
   (`.agents/instructions/<name>.md`) shall be overwritten in place and shall
   **never** be displaced to the init backup directory; only provider-directory
   originals are removed, so the projected `hh.*` twin does not double-load
-  (consistent with [#37](https://github.com/mknoth197/harness-haircut/issues/37)).
+  (consistent with [#37](https://github.com/mitchellknoth/harness-haircut/issues/37)).
 - **AD6.** When a contradiction is resolved away from an existing canonical
   fragment (a provider candidate is chosen, or an AI-merge supersedes it), the
   command shall back up that canonical fragment's verbatim original to the init
