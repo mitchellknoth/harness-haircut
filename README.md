@@ -107,6 +107,10 @@ docs/
 
 Start with [`AGENTS.md`](AGENTS.md) for the standards, then pick a story from [`docs/stories/`](docs/stories/) — they're ordered and the dependency chain is documented in [`docs/stories/README.md`](docs/stories/README.md). The foundational (F-series), adapter (A-series), command (C-series), and integration (I-series) stories that make up v0.1.0 are implemented; remaining work is tracked as GitHub issues.
 
+## About this demo
+
+This section was added by the `sdlc-next` skeleton agent as a demonstration of an automated change.
+
 ## License
 
 MIT — see [`LICENSE`](LICENSE).
